@@ -75,6 +75,14 @@ body::-webkit-scrollbar {
   letter-spacing: 0.005em;
   color: #2c3a4b !important;
   margin: 0px 20px !important;
+  span{
+    min-width: 60px !important;
+    height: 28px !important;
+    display: block;
+    text-align: center !important;
+    
+ 
+  }
 }
 .nav-btn {
   background: linear-gradient(90deg, #ff7e7e 0%, #e496ff 100%);

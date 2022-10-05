@@ -18,7 +18,7 @@ function Footer() {
           <div className="col-md-12">
             <img src="/assets/footer.svg" alt="" /> <br />
             <a
-           rel="noreferrer" href="https://dragonrace-io-official-r.gitbook.io/dragonrace.io/"
+           rel="noreferrer" href="https://dragonraceio.gitbook.io"
             target='_blank'
             >
             {" "}
@@ -67,7 +67,7 @@ function Footer() {
             <FaInstagram className='mx-2' />
           </a> */}
           <a
-            href='https://discord.gg/Gb6kzDCu'
+            href='https://discord.gg/kKvRYgKeGU'
             target='_blank'
             rel='noopener noreferrer'>
             {" "}
