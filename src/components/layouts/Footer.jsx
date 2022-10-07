@@ -59,15 +59,15 @@ function Footer() {
             {" "}
             <FaGithub className='mx-2' />
           </a>
-          {/* <a
-            href='#In-progress'
+          <a
+            href='https://www.instagram.com/dragonraceio'
             target='_blank'
             rel='noopener noreferrer'>
             {" "}
             <FaInstagram className='mx-2' />
-          </a> */}
+          </a>
           <a
-            href='https://discord.gg/kKvRYgKeGU'
+            href='https://discord.gg/kjtADU2JWA'
             target='_blank'
             rel='noopener noreferrer'>
             {" "}
