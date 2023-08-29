@@ -128,7 +128,15 @@ body::-webkit-scrollbar {
   letter-spacing: 0.005em;
   color: #858c94;
 }
-
+.navbar-brand{
+  font-family: "Russo One" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  color: #09142e;
+}
 
 /* // goverence */
  .gov-bg {

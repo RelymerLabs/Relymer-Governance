@@ -1,2 +1,2 @@
-# Dragon Race Voting  platform
+# Relymer Voting  platform
 

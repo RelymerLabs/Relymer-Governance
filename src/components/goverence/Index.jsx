@@ -9,7 +9,7 @@ export default function Gov() {
   const [proposals, setProposals] = useState();
   const [totalProposals, setTotalProposals] = useState(0);
   const now = moment();
-  const baseUrl = "https://snapshot.org/#/dragonrace.eth/proposal/";
+  const baseUrl = "https://snapshot.org/#/relymer.eth/proposal/";
 
   function ProposalsLink(url) {
     window.open(url, "_blank").focus();
@@ -25,7 +25,7 @@ export default function Gov() {
                       first: 20,
                       skip: 0,
                       where: {
-                        space_in: ["dragonrace.eth"],
+                        space_in: ["relymer.eth"],
                        
                       },
                       orderBy: "created",
@@ -101,7 +101,7 @@ export default function Gov() {
         <div className='card '>
           <ul className='list-group list-group-flush'>
             <li className='list-group-item1 font-weight-bolder fs-24 p-3 pl-4'>
-              Recent Dragon Race Proposals
+              Recent Proposals
             </li>
             {proposals ? (
               <React.Fragment>
