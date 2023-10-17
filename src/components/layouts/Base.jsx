@@ -6,7 +6,7 @@ import Header from "./Header";
 
 function Base(props) {
   return (
-    <React.Fragment>
+    <React.Fragment> 
       <Header />
       {props.children}
       <Footer />
